@@ -1,4 +1,4 @@
-# University Website
+# University Website Project
 > PHP, MySQL, HTML, Bootstrap, Xampp, PhpMyAdmin were used.
 ---
 - This project was developed for the Web Programming class 2020-2021 Spring semester.
