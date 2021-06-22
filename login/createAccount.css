@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    background-image: url("loginbackgroundimage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input[type="checkbox"] {
+    display: block;
+}
+
+div .btn {
+    margin-top: 50px;
+}
+
+.container {
+    display: block;
+    background: rgba(255, 255, 255, 0);
+    width: 410px;
+    height: 700px;
+    padding: 30px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#show:checked~.container {
+    display: block;
+}
+
+.container .close-btn {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.container .close-btn:hover {
+    color: #3498db;
+}
+
+.container .text {
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.container form {
+    margin-top: -20px;
+}
+
+.container form .data {
+    height: 45px;
+    width: 100%;
+    margin: 60px 0;
+}
+
+form .data label {
+    font-size: 18px;
+}
+
+form .data input {
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 1px solid red;
+}
+
+form .data input:focus {
+    border-color: black;
+    border-bottom-width: 2px;
+}
+
+form .btn {
+    margin: 10px 0;
+    height: 45px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+form .btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+form .btn button {
+    height: 100%;
+    width: 100%;
+    background: #d29091;
+    border: none;
+    border-radius: 2em;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+form .signup-link {
+    text-align: center;
+}
+
+form .signup-link a {
+    color: white;
+    text-decoration: none;
+}
+
+form .signup-link a:hover {
+    text-decoration: underline;
+}
+
+.dropdown {
+    height: 45px;
+    width: 100%;
+    margin: 2px 0;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    background: #8785a2;
+}
+
+#header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 65px;
+    background: #8785a2;
+}
+
+label {
+    vertical-align: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 2.5em;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    background: #8785a2;
+}
+
+
+/*Alert css, html - https://www.w3schools.com/howto/howto_js_alert.asp*/
+
+.alert {
+    padding: 30px;
+    background-color: #f44336;
+    color: white;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.error_message {
+    color: red;
+    font-size: 30px;
+}
