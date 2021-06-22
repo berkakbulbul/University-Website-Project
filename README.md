@@ -17,6 +17,7 @@
 #### Step 2: Move the project file to ..\xampp\htdocs.
 #### Step 3: Change the user information according to your mysql user on the utils/config.php and utils/connect.php files.
 #### Step 4: Open the Xampp and run the apache and mysql. Then run the config.php to upload your database. ( Default location: http://localhost/universitywebproject/utils/config.php)
+#### Step 5: Run the login/main.php
 ---
 #### Login.
 ![Recordit GIF](http://g.recordit.co/QSTFIQJT3k.gif)
